@@ -3,13 +3,21 @@
   margin-left: 0;
   box-sizing: border-box;
 }
+
+/* i commented out the height */
 body {
   background-image: url("/images/Untitled\ design.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 150vh;
+  /* height: 150vh; */
 }
+
+.main {
+  justify-items: center;
+  width: 80%;
+}
+
 .nav-bar {
   background-color: #f5d1d1;
   overflow: hidden;
@@ -31,16 +39,19 @@ body {
 .nav-bar ul li {
   display: inline;
   padding: 50px;
+  width: 50px;
 }
 .nav-bar ul li a {
   text-decoration: none;
   color: #000;
 }
+
+/* I commented out the padding */
 .nav-bar ul li a:hover {
   color: #f5d1d1;
   background-color: #000;
   border-radius: 15px;
-  padding: 5px;
+  /* padding: 5px; */
 }
 .welcome {
   font-size: 3em;
@@ -81,7 +92,7 @@ body {
   margin-right: 10px;
   overflow: hidden;
   padding-left: 50px;
-  
+  width: 700px;
 }
 .icons {
   margin: auto;
