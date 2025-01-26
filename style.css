@@ -1,6 +1,7 @@
 * {
   margin-right: 0;
   margin-left: 0;
+  margin-bottom: 0;
   box-sizing: border-box;
 }
 
@@ -128,7 +129,7 @@ body {
 }
 footer {
   background-color: #f5d1d1;
-  margin: 0px;
+  margin-bottom: 0;
 }
 .mail h3 {
   padding: 15px;
@@ -151,7 +152,7 @@ footer {
 }
 .con-img {
   text-align: center;
-  padding: 25%;
+  padding: 18%;
 }
 .con-img img {
   height: 150px;
