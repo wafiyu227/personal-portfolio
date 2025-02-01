@@ -82,8 +82,6 @@ body {
   color: white;
   padding-top: 0;
   float: left;
-  
-  
 }
 #bio {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -159,9 +157,31 @@ footer {
   background-color: rgb(0, 174, 255);
   border-radius: 15px;
 }
-.projects main .grid-card img {
+
+.project-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 2rem;
+  margin-top: 2rem;
+}
+
+.project-card {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 1rem;
 }
