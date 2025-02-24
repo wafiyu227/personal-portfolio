@@ -4,7 +4,9 @@
   margin-bottom: 0;
   box-sizing: border-box;
 }
-
+link img {
+  border-radius: 10px;
+}
 /* i commented out the height */
 body {
   background-image: url("/images/Untitled\ design.png");
