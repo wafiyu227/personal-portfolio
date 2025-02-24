@@ -63,32 +63,33 @@ body {
 
 #img-profile {
   border-radius: 50%;
-  width: 200px;
-  height: 200px;
-
+  width: 300px;
+  height: 300px;
   display: block;
   margin-top: 50px;
+  object-fit: contain;
 }
 #name {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: tahoma;
   font-size: 3em;
   font-style: italic;
   color: white;
-  padding-bottom: 0;
+  padding: 0;
 }
 #role {
   font-family: "Roboto", sans-serif;
   font-size: 2.5em;
   color: white;
-  padding-top: 0;
+  padding: 0;
   float: left;
+  margin-top: 0px
 }
 #bio {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: black;
   font-size: 1.2em;
   font-weight: bold;
-  margin-right: 10px;
+  margin-right: 25px;
   overflow: hidden;
   padding-left: 50px;
   width: 700px;
@@ -150,7 +151,7 @@ footer {
 }
 .con-img {
   text-align: center;
-  padding: 18%;
+  padding: 50px
 }
 .con-img img {
   height: 150px;
@@ -166,12 +167,16 @@ footer {
 }
 
 .project-card {
-  background-color: white;
+  background-color: #fff;
   padding: 2rem;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   text-align: center;
   transition: transform 0.3s ease;
+}
+.project-card h3, p {
+  font-family: tahoma;
+  font-size: 1.5em;
 }
 
 .project-card:hover {
