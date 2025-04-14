@@ -9,7 +9,7 @@ link img {
 }
 
 body {
-  background-color: #000;
+  background-color: #201f1f;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -97,7 +97,8 @@ body {
   width: 700px;
 }
 .about{
-  margin: 25px 0;
+  margin: 25px auto;
+  width: 70vw;
 }
 .icons {
   display: flex;
