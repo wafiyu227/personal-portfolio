@@ -96,17 +96,36 @@ body {
   padding-left: 50px;
   width: 700px;
 }
-.about{
+.about {
   margin: 25px auto;
   width: 70vw;
+}
+.skills-heading{
+  color: #e6a8a8;
+  font-size: 2rem;
+  text-align: center;
+  margin: 25px auto
 }
 .icons {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 50px 0px;
+  margin: 50px auto;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  
 }
-.icons .logo{
-  display: inline
+.icons .logo {
+  display: inline;
+}
+.logo {
+  margin: 0px 20px;
+}
+.logo p {
+  font-family: verdana;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
 }
 .icons img {
   width: 50vw;
@@ -124,6 +143,11 @@ body {
   width: 100px;
   height: 100px;
 }
+#git-logo img {
+  width: 200px;
+  height: 100px;
+}
+
 #react-logo img {
   width: 100px;
   height: 100px;
@@ -143,8 +167,8 @@ footer {
 .phone h3 {
   text-align: center;
 }
-.contacts{
-  color: #fff
+.contacts {
+  color: #fff;
 }
 .social-icons {
   text-align: center;
