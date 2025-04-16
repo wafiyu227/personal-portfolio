@@ -234,3 +234,16 @@ p {
   text-align: center;
   margin-top: 50px;
 }
+.address-container {
+  display: inline-block;
+  width: 500px;
+  height: 300px;
+  background-color: #fff
+}
+.address-container img{
+  width: 50px;
+  
+}
+.address-container H1 {
+  text-align: center
+}
