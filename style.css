@@ -52,7 +52,12 @@ body {
   /* padding: 5px; */
 }
 .welcome {
-  font-size: 3em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.welcome h1 {
+  font-size: 5em;
   font-family: "Roboto", sans-serif;
   margin-top: 50px;
   color: #e6a8a8;
@@ -100,11 +105,11 @@ body {
   margin: 25px auto;
   width: 70vw;
 }
-.skills-heading{
+.skills-heading {
   color: #e6a8a8;
   font-size: 2rem;
   text-align: center;
-  margin: 25px auto
+  margin: 15px auto;
 }
 .icons {
   display: flex;
@@ -113,7 +118,10 @@ body {
   padding: 50px 0px;
   margin: 50px auto;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
-  
+}
+.icons img:hover{
+  transform: translateY(-10px);
+  transition-duration: 1s;
 }
 .icons .logo {
   display: inline;
@@ -235,15 +243,63 @@ p {
   margin-top: 50px;
 }
 .address-container {
-  display: inline-block;
-  width: 500px;
-  height: 300px;
-  background-color: #fff
+  display: block;
+  width: 300px;
+  height: 270px;
+  background-color: #fff;
+  text-align: center;
+
+  border-radius: 15px;
+  margin: 20px;
 }
-.address-container img{
+.address-container img {
+  margin: 20px auto;
   width: 50px;
-  
 }
-.address-container H1 {
-  text-align: center
+.address-container H2 {
+  text-align: center;
+}
+hr {
+  width: 60%;
+  margin: 0px auto;
+}
+.education {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  margin: 0px auto;
+  width: 60%;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.education:hover .freecodecamp-img img{
+  display:flex;
+}
+.education:hover {
+  transform: translateY(-40PX);
+  transition-duration: 1s;
+  transition-delay: 0.25s
+}
+.education h1 {
+  font-size: 2em;
+  font-family: arial, sans-serif;
+}
+.education ul li {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 10px;
+}
+.education-heading {
+  text-align: center;
+  margin: 15px auto;
+}
+.education .cert {
+  margin-top: 25px;
+}
+.freecodecamp-img img {
+  width: 300px;
+  height: 300px;
+  display: none;
+  border-radius: 10px
 }
