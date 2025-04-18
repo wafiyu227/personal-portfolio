@@ -7,6 +7,12 @@
     <title>Ibrahim Wafiyudeen Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="/images/logofile.png" type="image/x-icon">
+    <!-- AOS CSS -->
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+<!-- AOS JS -->
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
 </head>
 
 <body>
@@ -24,7 +30,16 @@
     <main class="main">
         <section class="hero">
             <div class="welcome">
-                <h1>Welcome_</h1>
+                <h1 class="animated-text">
+                    <span style="--i:0">W</span>
+                    <span style="--i:1">e</span>
+                    <span style="--i:2">l</span>
+                    <span style="--i:3">c</span>
+                    <span style="--i:4">o</span>
+                    <span style="--i:4">m</span>
+                    <span style="--i:4">e</span>
+                    <span style="--i:4">_</span>
+                </h1>
                 <div class="address-container">
                     <h2>MY ADDRESS</h2><hr><img src="/images/mdi--address-marker.svg" alt="">
                     <p>Ghana, Tamale L331</p>
@@ -34,14 +49,14 @@
             <div class="profile-image">
                 <img src="/images/24802.jpg" alt="profile" id="img-profile">
                 <div class="hero-content">
-                    <h2 id="name">Ibrahim Wafiyudeen</h2>
-                    <h3 id="role">Frontend Developer</h3>
+                    <h2 id="name" data-aos="slide-right" data-aos-duration="1000" data-aos-delay="300">Ibrahim Wafiyudeen</h2>
+                    <h3 id="role" data-aos="slide-left" data-aos-duration="1000" data-aos-delay="300">Frontend Developer</h3>
                     <div class="about">
                         <p id="bio"> I am a passionate and driven Junior Frontend Developer with a keen eye for design and a strong foundation in web development. My passion for creating interactive, user-friendly and visually appealing user interfaces is matched by my commitment to continuously improving my skills and staying updated with the latest industry trends. I thrive in collaborative environments and are eager to contribute to dynamic projects that enhance user experiences.</p>
                     </div>
                 </div>
         </section><br>
-        <section>
+        <section data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">
             <h1 class="skills-heading">TECHNOLOGIES I USE AS A FRONT-END DEVELOPER</h1><hr>
             <div class="icons">
                 
@@ -73,7 +88,7 @@
         </section>
     </main>
 
-    <section>
+    <section data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" class="edu">
         <div class="education">
             <div>
             <h1 class="education-heading">EDUCATION</h1>
@@ -93,7 +108,25 @@
             </div>
         </div>
     </section>
-    
+    <section class="exp" data-aos="slide-right" data-aos-duration="1000" data-aos-delay="300">
+<div class="experience">
+    <h1 class="exp-heading">EXPERIENCE</h1><hr>
+    <h2>Freelace Developer</h2>
+    <p class="exp-year">2024 - present</p>
+    <div class="freelance-projects">
+        <div class="construction">
+            <h3>Built a construction company's website</h3>
+            <img src="/images/contractor.jpg" alt="">
+            <p>A fully-functional and user-friendly construction company website</p>
+        </div>
+        <div class="expense-tracker">
+            <h3>Built an expense tracker</h3>
+            <img src="/images/expense-tracker.png" alt="">
+            <p>A modern tool that track the expenses of a company or businesses</p>
+        </div>
+    </div>
+</div>
+    </section>
     <footer>
         <div class="container">
             <div class="footer-content">
