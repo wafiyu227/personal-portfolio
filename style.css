@@ -9,7 +9,7 @@ link img {
 }
 
 body {
-  background-color: #201f1f;
+  background-color: #0F172A;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -19,7 +19,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #e6a8a8;
+  background-color: #38BDF8;;
   padding: 20px 10px;
   width: 50vw;
   margin: 15px auto;
@@ -63,7 +63,7 @@ nav {
   font-size: 5em;
   font-family: "Roboto", sans-serif;
   margin-top: 50px;
-  color: #e6a8a8;
+  color: #38BDF8;;
 }
 .animated-text span {
   opacity: 0;
@@ -101,7 +101,7 @@ nav {
 #role {
   font-family: "Roboto", sans-serif;
   font-size: 2.5em;
-  color: white;
+  color: #38BDF8;
   padding: 0;
 
   margin-top: 0px;
@@ -125,18 +125,18 @@ nav {
   width: 70vw;
 }
 .skills-heading {
-  color: #e6a8a8;
+  color: #38BDF8;;
   font-size: 2rem;
   text-align: center;
   margin: 15px auto;
 }
 .icons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 50px 0px;
-  margin: 50px auto;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  display: grid;
+  grid-template-columns: repeat(3, minmax(200px, 1fr));
+  gap: 1rem;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 100px;
 }
 .icons img:hover {
   transform: translateY(-10px);
@@ -155,8 +155,7 @@ nav {
   text-align: center;
 }
 .icons img {
-  width: 50vw;
-  padding: 0px 20px;
+  margin: 30px 0px
 }
 #html-logo img {
   width: 100px;
@@ -184,7 +183,7 @@ nav {
   height: 100px;
 }
 footer {
-  background-color: hsl(0, 64%, 89%);
+  background-color: #38BDF8;
   margin-bottom: 0;
 }
 .mail h3 {
@@ -265,11 +264,16 @@ p {
   display: block;
   width: 300px;
   height: 270px;
-  background-color: #fff;
+  background-color: #1E2A3B;
   text-align: center;
-
+color: #e4d6d6;
   border-radius: 15px;
   margin: 20px;
+  border: 0.5px solid hsl(198, 93%, 80%);
+  transition: ease-in 0.2s;
+}
+.address-container:hover{
+  background-color: #0F172A
 }
 .address-container img {
   margin: 20px auto;
@@ -281,9 +285,11 @@ p {
 hr {
   width: 60%;
   margin: 0px auto;
+  color: #38BDF8;
 }
 .education {
-  background-color: #ffffff;
+  border: 1px solid #38BDF8;
+  color: #fff;
   padding: 1.5rem;
   margin: 0px auto;
   width: 60%;
@@ -302,6 +308,7 @@ hr {
 }
 .education h1 {
   font-size: 2em;
+  color: #38BDF8;
   font-family: arial, sans-serif;
 }
 .education ul li {
@@ -323,7 +330,6 @@ hr {
   border-radius: 10px;
 }
 .experience {
-  background-color: #ffffff;
   margin: 20px auto;
   width: 100%;
   padding: 1.2rem;
@@ -333,23 +339,26 @@ hr {
 .exp-heading {
   font-family: arial, sans-serif;
   font-size: 2em;
+  color: #38BDF8
 }
 .experience h2 {
   font-family: verdana;
   font-size: 1.5em;
+  color: #38BDF8;
 }
 .experience h3 {
   color: blue;
   margin-bottom: 12px;
 }
 .exp-year {
-  color: red;
+  color: #fff;
   font-weight: bold;
 }
 .freelance-projects {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: #fff
 }
 .construction img {
   width: 250px;
