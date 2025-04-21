@@ -255,6 +255,8 @@ textarea {
   border: 1px solid #38bdf8;
   border-radius: 10px;
   padding: 0px 10px;
+  color: #fff;
+  font-size: 1.2rem;
 }
 .contact-form textarea {
   max-width: 600px;
@@ -262,6 +264,8 @@ textarea {
   border: 1px solid #38bdf8;
   border-radius: 10px;
   padding: 10px;
+  color: #fff;
+  font-size: 1.2rem;
 }
 .message-btn {
   width: 200px;
