@@ -258,18 +258,16 @@ textarea {
   padding: 0px 10px;
   color: #fff;
   font-size: 1.2rem;
-  
 }
 .contact-form textarea {
   width: 600px;
-  max-width: 600px;;
+  max-width: 600px;
   background-color: #0f172a;
   border: 1px solid #38bdf8;
   border-radius: 10px;
   padding: 10px;
   color: #fff;
   font-size: 1.2rem;
-  
 }
 .message-btn {
   width: 200px;
@@ -405,10 +403,12 @@ hr {
 }
 .experience {
   margin: 20px auto;
-  width: 100%;
-  padding: 1.2rem;
+  width: 80%;
+  padding: 1.5rem;
   text-align: center;
   height: 100%;
+  background-color: #1e2a3b;
+  border-radius: 10px;
 }
 .exp-heading {
   font-family: arial, sans-serif;
@@ -429,9 +429,6 @@ hr {
   font-weight: bold;
 }
 .freelance-projects {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   color: #fff;
 }
 .construction img {
