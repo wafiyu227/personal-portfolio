@@ -278,6 +278,20 @@ textarea {
   color: #fff;
   cursor: pointer;
 }
+.demo-btn{
+  width: 100px;
+  height: 30px;
+  margin-top: 12px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 8px;
+  background-color: #38bdf8;
+  color: #fff;
+  cursor: pointer;
+}
+.demo-btn:hover{
+  background-color: hsl(198, 93%, 40%);
+}
 .message-btn:hover {
   background-color: hsl(198, 93%, 40%);
 }
@@ -288,7 +302,7 @@ textarea {
 }
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(3, minmax(150px, 1fr));
   gap: 1.5rem;
   margin-top: 2rem;
 }
@@ -306,6 +320,9 @@ textarea {
   border: 0.5px solid hsl(198, 93%, 80%);
   color: #fff;
   transition: ease-in 0.2s;
+}
+.project-card h3{
+  color: hsl(198, 93%, 80%)
 }
 .project-card h3,
 p {
@@ -480,6 +497,22 @@ hr {
 
 /* Phones */
 @media (max-width: 480px) {
+  .icons {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(100px, 1fr));
+    gap: 1rem;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 100px;
+  }
+  #bio {
+    font-size: 0.8rem;
+    width: 50vw;
+  }
+  .about {
+    margin: 0.5rem auto;
+    width: 40vw;
+  }
   *{
     margin: 0;
     padding: 0;
@@ -561,9 +594,10 @@ hr {
   }
   .contact-form input,
   .contact-form textarea {
-    width: 98vw;
-    max-width: 98vw;
+    width: 70vw;
+    max-width: 70vw;
     font-size: 0.9rem;
+    margin: 0px auto;
   }
   .contact-box {
     width: 98vw;
@@ -650,12 +684,11 @@ hr {
   }
   #bio {
     font-size: 0.8rem;
-    padding-left: 0.5rem;
-    width: 98vw;
+    width: 50vw;
   }
   .about {
     margin: 0.5rem auto;
-    width: 50vw;
+    width: 40vw;
   }
 }
 
