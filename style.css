@@ -571,6 +571,9 @@ hr {
 
 @media (max-width: 768px) {
   /* Hamburger menu activation */
+  body{
+    overflow-x: hidden;
+  }
   .hamburger {
     display: block;
     position: absolute;
@@ -633,6 +636,9 @@ hr {
 }
 
 @media (max-width: 576px) {
+  body{
+    overflow-x: hidden;
+  }
   nav {
     width: 95%;
     padding: 15px 5px;
@@ -692,6 +698,9 @@ hr {
 }
 
 @media (max-width: 480px) {
+  body{
+    overflow-x: hidden;
+  }
   #img-profile {
     width: 150px;
     height: 150px;
@@ -735,6 +744,9 @@ hr {
 }
 
 @media (max-width: 320px) {
+  body{
+    overflow-x: hidden;
+  }
   .hamburger span {
     width: 25px;
     height: 2px;
