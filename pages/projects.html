@@ -6,10 +6,7 @@
     <title>My Projects</title>
     <link rel="stylesheet" href="../style.css" />
     <link rel="shortcut icon" href="/images/logofile.png" type="image/x-icon">
-    <script
-      src="https://kit.fontawesome.com/your-fontawesome-kit.js"
-      crossorigin="anonymous"
-    ></script>
+    
     <!-- AOS CSS -->
 <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
 
@@ -19,15 +16,20 @@
   <body>
     <header>
       <div class="container">
-        <nav class="nav-bar">
-          <ul>
-            <li><a href="../index.html">About</a></li>
-            <li><a href="/pages/contact.html">Contact</a></li>
-            <li><a href="/pages/projects.html">Projects</a></li>
-          </ul>
-        </nav>
+          <nav class="nav-bar">
+              <ul id="menu">
+                  <li><a href="../index.html">About</a></li>
+                  <li><a href="/pages/contact.html">Contacts</a></li>
+                  <li><a href="/pages/projects.html">Projects</a></li>
+              </ul>
+              <button class="hamburger" id="hamburger">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+              </button>
+          </nav>
       </div>
-    </header>
+  </header>
 <body>
   
   </div>
@@ -67,31 +69,35 @@
           </section>
     </main>
     <footer>
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-content-brand">
-                    <div class="mail">
-                        <h3><em>Email</em>: ibrahimwafiyudeen@gmail.com</h3>
-                    </div>
-                    <div class="phone">
-                        <h3><em>Phone</em>: +233 596705736</h3>
-                    </div><br>
-                    <div class="social-media">
-                        <div class="social-icons">
-                            <a href="https://www.linkedin.com/in/ibrahim-wafiyudeen-0b1b3b1b4/" target="_blank">
-                                <img src="/images/skill-icons--linkedin.png" alt="">
-                            </a>
-                            <a href="https://www.github.com/wafiyu227" target="_blank">
-                                <img src="/images/akar-icons--github-fill.png" alt="">
-                            </a>
-                            <a href="https://www.twitter.com/wafiyudeen5448" target="_blank">
-                                <img src="/images/prime--twitter.png" alt="">
-                            </a>
-                            <div class="copy">
-                                <p>&copy; 2025 Ibrahim Wafiyudeen All rights reserved</p>
-                            </div>
-                        </div>
-
-    </footer>
-    <script src="script.js"></script>
+      <div class="container">
+          <div class="footer-content">
+              <div class="footer-content-brand">
+                  <div class="mail">
+                      <h3><em>Email</em>: ibrahimwafiyudeen@gmail.com</h3>
+                  </div>
+                  <div class="phone">
+                      <h3><em>Phone</em>: +233 596705736</h3>
+                  </div><br>
+                  <div class="social-media">
+                      <div class="social-icons">
+                          <a href="https://www.linkedin.com/in/ibrahim-wafiyudeen-0b1b3b1b4/" target="_blank">
+                              <img src="/images/skill-icons--linkedin.png" alt="">
+                          </a>
+                          <a href="https://www.github.com/wafiyu227" target="_blank">
+                              <img src="/images/akar-icons--github-fill.png" alt="">
+                          </a>
+                          <a href="https://www.twitter.com/wafiyudeen5448" target="_blank">
+                              <img src="/images/prime--twitter.png" alt="">
+                          </a>
+                      </div>
+                      <div class="copy">
+                          <p>&copy; <span id="date"></span> Ibrahim Wafiyudeen All rights reserved</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </footer>
+    <script src="../script.js"></script>
 </body>
+</html>

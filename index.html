@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,22 +9,25 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="/images/logofile.png" type="image/x-icon">
     <!-- AOS CSS -->
-<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
-
-<!-- AOS JS -->
-<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
-
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
 </head>
 
 <body>
     <header>
         <div class="container">
             <nav class="nav-bar">
-                <ul>
+                <ul id="menu">
                     <li><a href="../index.html">About</a></li>
                     <li><a href="/pages/contact.html">Contacts</a></li>
                     <li><a href="/pages/projects.html">Projects</a></li>
                 </ul>
+                <button class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
             </nav>
         </div>
     </header>
@@ -43,7 +47,6 @@
                 <div class="address-container">
                     <h2>MY ADDRESS</h2><hr><img src="/images/mdi--address-marker.svg" alt="">
                     <p>Ghana, Tamale L331</p>
-                    
                 </div>
             </div>
             <div class="profile-image">
@@ -62,11 +65,11 @@
                                      contribute to dynamic projects that enhance user experiences.</p>
                     </div>
                 </div>
+            </div>
         </section><br>
         <section data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">
             <h1 class="skills-heading">TECHNOLOGIES I USE AS A FRONT-END DEVELOPER</h1><hr>
             <div class="icons">
-                
                 <div class="logo" id="html-logo">
                     <img src="/images/logos--html-5.svg" alt="html-logo">
                     <p>HTML5</p>
@@ -116,22 +119,22 @@
         </div>
     </section>
     <section class="exp" data-aos="slide-right" data-aos-duration="1000" data-aos-delay="300">
-<div class="experience">
-    <h1 class="exp-heading">EXPERIENCE</h1><hr>
-    <h2>Freelace Developer</h2>
-    <p class="exp-year">2024 - present</p>
-    <div class="freelance-projects">
-       <p>Transformed the online presence of diverse businesses 
-        by designing and developing custom websites that combine 
-        clean code, intuitive UX, and responsive design. 
-        Collaborated closely with clients to understand 
-        their goals and delivered solutions that helped boost 
-        visibility, credibility, and customer engagement. 
-        Projects included portfolio sites, landing pages, 
-        and small business websites built with HTML, CSS, 
-        JavaScript, and modern frameworks.</p>
-    </div>
-</div>
+        <div class="experience">
+            <h1 class="exp-heading">EXPERIENCE</h1><hr>
+            <h2>Freelace Developer</h2>
+            <p class="exp-year">2024 - present</p>
+            <div class="freelance-projects">
+               <p>Transformed the online presence of diverse businesses 
+                by designing and developing custom websites that combine 
+                clean code, intuitive UX, and responsive design. 
+                Collaborated closely with clients to understand 
+                their goals and delivered solutions that helped boost 
+                visibility, credibility, and customer engagement. 
+                Projects included portfolio sites, landing pages, 
+                and small business websites built with HTML, CSS, 
+                JavaScript, and modern frameworks.</p>
+            </div>
+        </div>
     </section>
     <footer>
         <div class="container">
@@ -154,13 +157,16 @@
                             <a href="https://www.twitter.com/wafiyudeen5448" target="_blank">
                                 <img src="/images/prime--twitter.png" alt="">
                             </a>
-                            <div class="copy">
-                                <p>&copy; <span id="date"></span> Ibrahim Wafiyudeen All rights reserved</p>
-                            </div>
                         </div>
-
+                        <div class="copy">
+                            <p>&copy; <span id="date"></span> Ibrahim Wafiyudeen All rights reserved</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
