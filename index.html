@@ -1,172 +1,244 @@
-
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ibrahim Wafiyudeen Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="/images/logofile.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="/images/logofile.png" type="image/x-icon" />
     <!-- AOS CSS -->
-    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
     <!-- AOS JS -->
     <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <div class="container">
-            <nav class="nav-bar">
-                <ul id="menu">
-                    <li><a href="../index.html">About</a></li>
-                    <li><a href="/pages/contact.html">Contacts</a></li>
-                    <li><a href="/pages/projects.html">Projects</a></li>
-                </ul>
-                <button class="hamburger" id="hamburger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-            </nav>
-        </div>
+      <div class="container">
+        <nav class="nav-bar">
+          <ul id="menu">
+            <li><a href="../index.html">About</a></li>
+            <li><a href="/pages/contact.html">Contacts</a></li>
+            <li><a href="/pages/projects.html">Projects</a></li>
+          </ul>
+          <button class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </nav>
+      </div>
     </header>
     <main class="main">
-        <section class="hero">
-            <div class="welcome">
-                <h1 class="animated-text">
-                    <span style="--i:0">W</span>
-                    <span style="--i:1">e</span>
-                    <span style="--i:2">l</span>
-                    <span style="--i:3">c</span>
-                    <span style="--i:4">o</span>
-                    <span style="--i:4">m</span>
-                    <span style="--i:4">e</span>
-                    <span style="--i:4">_</span>
-                </h1>
-                <div class="address-container">
-                    <h2>MY ADDRESS</h2><hr><img src="/images/mdi--address-marker.svg" alt="">
-                    <p>Ghana, Tamale L331</p>
-                </div>
+      <section class="hero">
+        <div class="welcome">
+          <h1 class="animated-text">
+            <span style="--i: 0">W</span>
+            <span style="--i: 1">e</span>
+            <span style="--i: 2">l</span>
+            <span style="--i: 3">c</span>
+            <span style="--i: 4">o</span>
+            <span style="--i: 4">m</span>
+            <span style="--i: 4">e</span>
+            <span style="--i: 4">_</span>
+          </h1>
+          <div class="address-container">
+            <h2>MY ADDRESS</h2>
+            <hr />
+            <img src="/images/mdi--address-marker.svg" alt="" />
+            <p>Ghana, Tamale L331</p>
+          </div>
+        </div>
+        <div class="profile-image">
+          <img src="/images/24802.jpg" alt="profile" id="img-profile" />
+          <div class="hero-content">
+            <h2
+              id="name"
+              data-aos="slide-right"
+              data-aos-duration="1000"
+              data-aos-delay="200"
+            >
+              Ibrahim Wafiyudeen
+            </h2>
+            <h3
+              id="role"
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              data-aos-delay="200"
+            >
+              Frontend Developer
+            </h3>
+            <div class="about">
+              <p id="bio">
+                I am a passionate and driven Frontend Developer <br />
+                with a keen eye for design and a strong foundation in <br />
+                web development. My passion for creating interactive, <br />
+                user-friendly and visually appealing user interfaces <br />
+                is matched by my commitment to continuously improving <br />
+                my skills and staying updated with the latest industry trends.
+                <br />
+                I thrive in collaborative environments and are eager to <br />
+                contribute to dynamic projects that enhance user experiences.
+              </p>
             </div>
-            <div class="profile-image">
-                <img src="/images/24802.jpg" alt="profile" id="img-profile">
-                <div class="hero-content">
-                    <h2 id="name" data-aos="slide-right" data-aos-duration="1000" data-aos-delay="200">Ibrahim Wafiyudeen</h2>
-                    <h3 id="role" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">Frontend Developer</h3>
-                    <div class="about">
-                        <p id="bio"> I am a passionate and driven Frontend Developer <br>
-                                     with a keen eye for design and a strong foundation in <br>
-                                     web development. My passion for creating interactive, <br> 
-                                     user-friendly and visually appealing user interfaces <br> 
-                                     is matched by my commitment to continuously improving <br> 
-                                     my skills and staying updated with the latest industry trends. <br> 
-                                     I thrive in collaborative environments and are eager to <br> 
-                                     contribute to dynamic projects that enhance user experiences.</p>
-                    </div>
-                </div>
-            </div>
-        </section><br>
-        <section data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">
-            <h1 class="skills-heading">TECHNOLOGIES I USE AS A FRONT-END DEVELOPER</h1><hr>
-            <div class="icons">
-                <div class="logo" id="html-logo">
-                    <img src="/images/logos--html-5.svg" alt="html-logo">
-                    <p>HTML5</p>
-                </div>
-                <div class="logo" id="css-logo">
-                    <img src="/images/logos--css-3.svg" alt="css-logo">
-                    <P>CSS3</P>
-                </div>
-                <div class="logo" id="javscript-logo">
-                    <img src="/images/logos--javascript.svg" alt="javscript-logo">
-                    <P>JAVASCRIPT</P>
-                </div>
-                <div class="logo" id="react-logo">
-                    <img src="/images/logos--react.svg" alt="react-logo">
-                    <P>REACT.JS</P>
-                </div>
-                <div class="logo" id="tailwind-logo">
-                    <img src="/images/devicon--tailwindcss.svg" alt="tailwind-logo">
-                    <P>TAILWIND CSS</P>
-                </div>
-                <div class="logo" id="git-logo">
-                    <img src="/images/logos--git.svg" alt="tailwind-logo">
-                    <P>GIT</P>
-                </div>
-            </div>
-        </section>
+          </div>
+        </div>
+      </section>
+      <br />
+      <section data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">
+        <h1 class="skills-heading">
+          TECHNOLOGIES I USE AS A FRONT-END DEVELOPER
+        </h1>
+        <hr />
+        <div class="icons">
+          <div class="logo" id="html-logo">
+            <img src="/images/logos--html-5.svg" alt="html-logo" />
+            <p>HTML5</p>
+          </div>
+          <div class="logo" id="css-logo">
+            <img src="/images/logos--css-3.svg" alt="css-logo" />
+            <p>CSS3</p>
+          </div>
+          <div class="logo" id="javscript-logo">
+            <img src="/images/logos--javascript.svg" alt="javscript-logo" />
+            <p>JAVASCRIPT</p>
+          </div>
+          <div class="logo" id="react-logo">
+            <img src="/images/logos--react.svg" alt="react-logo" />
+            <p>REACT.JS</p>
+          </div>
+          <div class="logo" id="tailwind-logo">
+            <img src="/images/devicon--tailwindcss.svg" alt="tailwind-logo" />
+            <p>TAILWIND CSS</p>
+          </div>
+          <div class="logo" id="git-logo">
+            <img src="/images/logos--git.svg" alt="tailwind-logo" />
+            <p>GIT</p>
+          </div>
+        </div>
+      </section>
     </main>
 
-    <section data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" class="edu">
-        <div class="education">
-            <div>
-            <h1 class="education-heading">EDUCATION</h1>
-            <hr>
-            <h2>Self-Taught Frontend Developer</h2>
-            <p>2024 - present</p>
-            <ul>
-                <li>Completed 10+ projects using HTML, CSS, JavaScript, and React</li>
-                <li>Built a customizable portfolio website inspired by Framer</li>
-                <li>Practiced daily coding, UI design, and code reviews via GitHub</li>
-                <li>Learned through platforms like freeCodeCamp, YouTube, and documentation</li>
-            </ul>
-            <h2 class="cert">Certification: <a href="https://www.freecodecamp.org/certification/ibrahimwafiyudeen/responsive-web-design" target="_blank">Responsive Web Design</a> @ freeCodeCamp</h2>
-            </div>
-            <div class="freecodecamp-img">
-                <a href="https://www.freecodecamp.org" target="_blank"><img src="/images/freecodecamp-logo.png" alt=""></a>
-            </div>
+    <section
+      data-aos="fade-up"
+      data-aos-duration="1000"
+      data-aos-delay="300"
+      class="edu"
+    >
+      <div class="education">
+        <div>
+          <h1 class="education-heading">EDUCATION</h1>
+          <hr />
+          <h2>Self-Taught Frontend Developer</h2>
+          <p>2024 - present</p>
+          <ul>
+            <li>
+              Completed 10+ projects using HTML, CSS, JavaScript, and React
+            </li>
+            <li>Built a customizable portfolio website inspired by Framer</li>
+            <li>
+              Practiced daily coding, UI design, and code reviews via GitHub
+            </li>
+            <li>
+              Learned through platforms like freeCodeCamp, YouTube, and
+              documentation
+            </li>
+          </ul>
+          <h2 class="cert">
+            Certification:
+            <a
+              href="https://www.freecodecamp.org/certification/ibrahimwafiyudeen/responsive-web-design"
+              target="_blank"
+              >Responsive Web Design</a
+            >
+            @ freeCodeCamp
+          </h2>
         </div>
+        <div class="freecodecamp-img">
+          <a href="https://www.freecodecamp.org" target="_blank"
+            ><img src="/images/freecodecamp-logo.png" alt=""
+          /></a>
+        </div>
+      </div>
     </section>
-    <section class="exp" data-aos="slide-right" data-aos-duration="1000" data-aos-delay="300">
-        <div class="experience">
-            <h1 class="exp-heading">EXPERIENCE</h1><hr>
-            <h2>Freelace Developer</h2>
-            <p class="exp-year">2024 - present</p>
-            <div class="freelance-projects">
-               <p>Transformed the online presence of diverse businesses 
-                by designing and developing custom websites that combine 
-                clean code, intuitive UX, and responsive design. 
-                Collaborated closely with clients to understand 
-                their goals and delivered solutions that helped boost 
-                visibility, credibility, and customer engagement. 
-                Projects included portfolio sites, landing pages, 
-                and small business websites built with HTML, CSS, 
-                JavaScript, and modern frameworks.</p>
-            </div>
+    <section
+      class="exp"
+      data-aos="slide-right"
+      data-aos-duration="1000"
+      data-aos-delay="300"
+    >
+      <div class="experience">
+        <h1 class="exp-heading">EXPERIENCE</h1>
+        <hr />
+        <h2>Freelace Developer</h2>
+        <p class="exp-year">2024 - present</p>
+        <div class="freelance-projects">
+          <p>
+            Transformed the online presence of diverse businesses by designing
+            and developing custom websites that combine clean code, intuitive
+            UX, and responsive design. Collaborated closely with clients to
+            understand their goals and delivered solutions that helped boost
+            visibility, credibility, and customer engagement. Projects included
+            portfolio sites, landing pages, and small business websites built
+            with HTML, CSS, JavaScript, and modern frameworks.
+          </p>
         </div>
+      </div>
     </section>
     <footer>
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-content-brand">
-                    <div class="mail">
-                        <h3><em>Email</em>: ibrahimwafiyudeen@gmail.com</h3>
-                    </div>
-                    <div class="phone">
-                        <h3><em>Phone</em>: +233 596705736</h3>
-                    </div><br>
-                    <div class="social-media">
-                        <div class="social-icons">
-                            <a href="https://www.linkedin.com/in/ibrahim-wafiyudeen-0b1b3b1b4/" target="_blank">
-                                <img src="/images/skill-icons--linkedin.png" alt="">
-                            </a>
-                            <a href="https://www.github.com/wafiyu227" target="_blank">
-                                <img src="/images/akar-icons--github-fill.png" alt="">
-                            </a>
-                            <a href="https://www.twitter.com/wafiyudeen5448" target="_blank">
-                                <img src="/images/prime--twitter.png" alt="">
-                            </a>
-                        </div>
-                        <div class="copy">
-                            <p>&copy; <span id="date"></span> Ibrahim Wafiyudeen All rights reserved</p>
-                        </div>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-content-brand">
+            <div class="mail">
+              <h3><em>Email</em>: ibrahimwafiyudeen@gmail.com</h3>
             </div>
+            <div class="phone">
+              <h3><em>Phone</em>: +233 596705736</h3>
+            </div>
+            <br />
+            <div class="social-media">
+              <div class="social-icons">
+                <a
+                  href="https://www.linkedin.com/in/ibrahim-wafiyudeen-0b1b3b1b4/"
+                  target="_blank"
+                >
+                  <img src="/images/skill-icons--linkedin.png" alt="" />
+                </a>
+                <a href="https://www.github.com/wafiyu227" target="_blank">
+                  <img src="/images/akar-icons--github-fill.png" alt="" />
+                </a>
+                <a
+                  href="https://www.twitter.com/wafiyudeen5448"
+                  target="_blank"
+                >
+                  <img src="/images/prime--twitter.png" alt="" />
+                </a>
+              </div>
+              <div class="copy">
+                <p>
+                  &copy; <span id="date"></span> Ibrahim Wafiyudeen All rights
+                  reserved
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </footer>
+    <!-- Back to Top Button -->
+    <div class="back-to-top" id="backToTop">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="30px"
+        height="30px"
+        viewBox="0 0 8 8"
+      >
+        <path
+          fill="#fff"
+          d="M4 0C1.79 0 0 1.79 0 4s1.79 4 4 4s4-1.79 4-4s-1.79-4-4-4m0 1l3 3H5v3H3V4H1z"
+        />
+      </svg>
+    </div>
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>
