@@ -1,256 +1,230 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ibrahim Wafiyudeen Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="shortcut icon" href="/images/logofile.png" type="image/x-icon" />
-    <!-- AOS CSS -->
-    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
-    <!-- AOS JS -->
-    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
-  </head>
 
-  <body>
-    <header>
-      <div class="container">
-        <nav class="nav-bar">
-          <ul id="menu">
-            <li><a href="../index.html">About</a></li>
-            <li><a href="/pages/contact.html">Contacts</a></li>
-            <li><a href="/pages/projects.html">Projects</a></li>
-          </ul>
-          <button class="hamburger" id="hamburger">
-            <span></span>
-            <span></span>
-            <span></span>
-          </button>
-        </nav>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ibrahim Wafiyudeen | Frontend Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="/images/logofile.png" type="image/x-icon" />
+  <!-- Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Inter:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+  <!-- AOS CSS -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <nav class="nav-bar">
+        <ul id="menu">
+          <li><a href="../index.html">About</a></li>
+          <li><a href="/pages/contact.html">Contacts</a></li>
+          <li><a href="/pages/projects.html">Projects</a></li>
+        </ul>
+        <button class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <section class="hero">
+      <div class="welcome">
+        <h1 class="animated-text">
+          <span style="--i: 0">I</span>
+          <span style="--i: 1">b</span>
+          <span style="--i: 2">r</span>
+          <span style="--i: 3">a</span>
+          <span style="--i: 4">h</span>
+          <span style="--i: 5">i</span>
+          <span style="--i: 6">m</span>
+        </h1>
+        <div class="address-container">
+          <h2>MY ADDRESS</h2>
+          <hr />
+          <img src="/images/mdi--address-marker.svg" alt="" />
+          <p>Ghana, Tamale L331</p>
+        </div>
       </div>
-    </header>
-    <main class="main">
-      <section class="hero">
-        <div class="welcome">
-          <h1 class="animated-text">
-            <span style="--i: 0">W</span>
-            <span style="--i: 1">e</span>
-            <span style="--i: 2">l</span>
-            <span style="--i: 3">c</span>
-            <span style="--i: 4">o</span>
-            <span style="--i: 4">m</span>
-            <span style="--i: 4">e</span>
-            <span style="--i: 4">_</span>
-          </h1>
-          <div class="address-container">
-            <h2>MY ADDRESS</h2>
-            <hr />
-            <img src="/images/mdi--address-marker.svg" alt="" />
-            <p>Ghana, Tamale L331</p>
+      <div class="profile-image">
+        <img src="/images/24802.jpg" alt="profile" id="img-profile" />
+        <div class="hero-content">
+          <h2 id="name" data-aos="slide-right" data-aos-duration="1000" data-aos-delay="200">
+            Ibrahim Wafiyudeen
+          </h2>
+          <h3 id="role" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">
+            Frontend Developer
+          </h3>
+          <div class="about">
+            <p id="bio">
+              Self-taught Frontend Developer who has delivered user-focused
+              platforms that increased client visibility and engagement.
+              Passionate about solving real problems for underserved local
+              businesses in Ghana. Skilled in React, Firebase, and Supabase,
+              with a strong eye for clean code and impactful design. Team
+              player, clear communicator, and proactive problem-solver.
+            </p>
           </div>
         </div>
-        <div class="profile-image">
-          <img src="/images/24802.jpg" alt="profile" id="img-profile" />
-          <div class="hero-content">
-            <h2
-              id="name"
-              data-aos="slide-right"
-              data-aos-duration="1000"
-              data-aos-delay="200"
-            >
-              Ibrahim Wafiyudeen
-            </h2>
-            <h3
-              id="role"
-              data-aos="zoom-in"
-              data-aos-duration="1000"
-              data-aos-delay="200"
-            >
-              Frontend Developer
-            </h3>
-            <div class="about">
-              <p id="bio">
-                Self-taught Frontend Developer who has delivered user-focused
-                platforms that increased client visibility and engagement.
-                Passionate about solving real problems for underserved local
-                businesses in Ghana. Skilled in React, Firebase, and Supabase,
-                with a strong eye for clean code and impactful design. Team
-                player, clear communicator, and proactive problem-solver.
+      </div>
+    </section>
+    <br />
+    <section data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">
+      <h1 class="skills-heading">
+        TECHNOLOGIES I USE AS A FRONT-END DEVELOPER
+      </h1>
+      <hr />
+      <div class="icons">
+        <div class="logo" id="html-logo">
+          <img src="/images/logos--html-5.svg" alt="html-logo" />
+          <p>HTML5</p>
+        </div>
+        <div class="logo" id="css-logo">
+          <img src="/images/logos--css-3.svg" alt="css-logo" />
+          <p>CSS3</p>
+        </div>
+        <div class="logo" id="javscript-logo">
+          <img src="/images/logos--javascript.svg" alt="javscript-logo" />
+          <p>JAVASCRIPT</p>
+        </div>
+        <div class="logo" id="react-logo">
+          <img src="/images/logos--react.svg" alt="react-logo" />
+          <p>REACT.JS</p>
+        </div>
+        <div class="logo" id="tailwind-logo">
+          <img src="/images/devicon--tailwindcss.svg" alt="tailwind-logo" />
+          <p>TAILWIND CSS</p>
+        </div>
+        <div class="logo" id="git-logo">
+          <img src="/images/logos--git.svg" alt="tailwind-logo" />
+          <p>GIT</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <section data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" class="edu">
+    <div class="education">
+      <div>
+        <h1 class="education-heading">EDUCATION</h1>
+        <hr />
+        <h2>Self-Taught Frontend Developer</h2>
+        <p>2024 - present</p>
+        <ul>
+          <li>
+            Completed 10+ projects using HTML, CSS, JavaScript, and React
+          </li>
+          <li>Built a customizable portfolio website inspired by Framer</li>
+          <li>
+            Practiced daily coding, UI design, and code reviews via GitHub
+          </li>
+          <li>
+            Learned through platforms like freeCodeCamp, YouTube, and
+            documentation
+          </li>
+        </ul>
+        <h2 class="cert">
+          Certification:
+          <a href="https://www.freecodecamp.org/certification/ibrahimwafiyudeen/responsive-web-design"
+            target="_blank">Responsive Web Design</a>
+          @ freeCodeCamp
+        </h2>
+      </div>
+      <div class="freecodecamp-img">
+        <a href="https://www.freecodecamp.org" target="_blank"><img src="/images/freecodecamp-logo.png" alt="" /></a>
+      </div>
+    </div>
+  </section>
+  <section id="experience" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">
+    <h2>Experience</h2>
+    <hr>
+
+    <div class="experience-item">
+      <h3>Freelance Frontend Developer</h3>
+      <p><em>Jan 2024 – Present</em></p>
+      <ul>
+        <li>Designed and developed 5+ websites for small businesses and personal brands using React.js, Tailwind CSS,
+          and Firebase.</li>
+        <li>Improved client visibility and conversions by 30%+ through responsive, SEO-optimized designs.</li>
+        <li>Translated UI/UX wireframes into clean, accessible code and deployed using Netlify and Vercel.</li>
+        <li>Integrated APIs, built dynamic features, and maintained clean Git-based workflows.</li>
+      </ul>
+    </div>
+
+    <div class="experience-item">
+      <h3>Frontend Developer – Casoa (Grocery Delivery Startup)</h3>
+      <p><em>Apr 2025 – Present</em></p>
+      <ul>
+        <li>Actively part of the front-end development of Casoa’s MVP — a platform for ordering groceries online in
+          Ghana.</li>
+        <li>Built user-facing pages like About, FAQ, Contact, and Careers using React, Tailwind CSS, and Supabase.</li>
+        <li>Integrated authentication and dynamic data handling with Supabase.</li>
+        <li>Collaborated with team members on product design and feature planning.</li>
+      </ul>
+    </div>
+
+    <div class="experience-item">
+      <h3>Founder & Developer – Local Business Visibility Platform</h3>
+      <p><em>2024 – Present</em></p>
+      <ul>
+        <li>Building a searchable map-based platform for Ghanaian businesses to register and improve online
+          discoverability.</li>
+        <li>Developed using React, Tailwind CSS, Google Maps API, and Supabase for real-time data and authentication.
+        </li>
+        <li>Focused on scalability, accessibility, and a user-first design experience.</li>
+        <li>Designed the project architecture to support dynamic filtering, listings, and location-based search.</li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-content-brand">
+          <div class="mail">
+            <h3><em>Email</em>: ibrahimwafiyudeen@gmail.com</h3>
+          </div>
+          <div class="phone">
+            <h3><em>Phone</em>: +233 596705736</h3>
+          </div>
+          <br />
+          <div class="social-media">
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/ibrahim-wafiyudeen-0b1b3b1b4/" target="_blank">
+                <img src="/images/skill-icons--linkedin.png" alt="" />
+              </a>
+              <a href="https://www.github.com/wafiyu227" target="_blank">
+                <img src="/images/akar-icons--github-fill.png" alt="" />
+              </a>
+              <a href="https://www.twitter.com/wafiyudeen5448" target="_blank">
+                <img src="/images/prime--twitter.png" alt="" />
+              </a>
+            </div>
+            <div class="copy">
+              <p>
+                &copy; <span id="date"></span> Ibrahim Wafiyudeen All rights
+                reserved
               </p>
             </div>
           </div>
         </div>
-      </section>
-      <br />
-      <section data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">
-        <h1 class="skills-heading">
-          TECHNOLOGIES I USE AS A FRONT-END DEVELOPER
-        </h1>
-        <hr />
-        <div class="icons">
-          <div class="logo" id="html-logo">
-            <img src="/images/logos--html-5.svg" alt="html-logo" />
-            <p>HTML5</p>
-          </div>
-          <div class="logo" id="css-logo">
-            <img src="/images/logos--css-3.svg" alt="css-logo" />
-            <p>CSS3</p>
-          </div>
-          <div class="logo" id="javscript-logo">
-            <img src="/images/logos--javascript.svg" alt="javscript-logo" />
-            <p>JAVASCRIPT</p>
-          </div>
-          <div class="logo" id="react-logo">
-            <img src="/images/logos--react.svg" alt="react-logo" />
-            <p>REACT.JS</p>
-          </div>
-          <div class="logo" id="tailwind-logo">
-            <img src="/images/devicon--tailwindcss.svg" alt="tailwind-logo" />
-            <p>TAILWIND CSS</p>
-          </div>
-          <div class="logo" id="git-logo">
-            <img src="/images/logos--git.svg" alt="tailwind-logo" />
-            <p>GIT</p>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <section
-      data-aos="fade-up"
-      data-aos-duration="1000"
-      data-aos-delay="300"
-      class="edu"
-    >
-      <div class="education">
-        <div>
-          <h1 class="education-heading">EDUCATION</h1>
-          <hr />
-          <h2>Self-Taught Frontend Developer</h2>
-          <p>2024 - present</p>
-          <ul>
-            <li>
-              Completed 10+ projects using HTML, CSS, JavaScript, and React
-            </li>
-            <li>Built a customizable portfolio website inspired by Framer</li>
-            <li>
-              Practiced daily coding, UI design, and code reviews via GitHub
-            </li>
-            <li>
-              Learned through platforms like freeCodeCamp, YouTube, and
-              documentation
-            </li>
-          </ul>
-          <h2 class="cert">
-            Certification:
-            <a
-              href="https://www.freecodecamp.org/certification/ibrahimwafiyudeen/responsive-web-design"
-              target="_blank"
-              >Responsive Web Design</a
-            >
-            @ freeCodeCamp
-          </h2>
-        </div>
-        <div class="freecodecamp-img">
-          <a href="https://www.freecodecamp.org" target="_blank"
-            ><img src="/images/freecodecamp-logo.png" alt=""
-          /></a>
-        </div>
       </div>
-    </section>
-    <section id="experience" data-aos="zoom-in"
-    data-aos-duration="1000"
-    data-aos-delay="300">
-      <h2>Experience</h2><hr>
-    
-      <div class="experience-item">
-        <h3>Freelance Frontend Developer</h3>
-        <p><em>Jan 2024 – Present</em></p>
-        <ul>
-          <li>Designed and developed 5+ websites for small businesses and personal brands using React.js, Tailwind CSS, and Firebase.</li>
-          <li>Improved client visibility and conversions by 30%+ through responsive, SEO-optimized designs.</li>
-          <li>Translated UI/UX wireframes into clean, accessible code and deployed using Netlify and Vercel.</li>
-          <li>Integrated APIs, built dynamic features, and maintained clean Git-based workflows.</li>
-        </ul>
-      </div>
-    
-      <div class="experience-item">
-        <h3>Frontend Developer – Casoa (Grocery Delivery Startup)</h3>
-        <p><em>Apr 2025 – Present</em></p>
-        <ul>
-          <li>Actively part of the front-end development of Casoa’s MVP — a platform for ordering groceries online in Ghana.</li>
-          <li>Built user-facing pages like About, FAQ, Contact, and Careers using React, Tailwind CSS, and Supabase.</li>
-          <li>Integrated authentication and dynamic data handling with Supabase.</li>
-          <li>Collaborated with team members on product design and feature planning.</li>
-        </ul>
-      </div>
-    
-      <div class="experience-item">
-        <h3>Founder & Developer – Local Business Visibility Platform</h3>
-        <p><em>2024 – Present</em></p>
-        <ul>
-          <li>Building a searchable map-based platform for Ghanaian businesses to register and improve online discoverability.</li>
-          <li>Developed using React, Tailwind CSS, Google Maps API, and Supabase for real-time data and authentication.</li>
-          <li>Focused on scalability, accessibility, and a user-first design experience.</li>
-          <li>Designed the project architecture to support dynamic filtering, listings, and location-based search.</li>
-        </ul>
-      </div>
-    </section>
-    
-    <footer>
-      <div class="container">
-        <div class="footer-content">
-          <div class="footer-content-brand">
-            <div class="mail">
-              <h3><em>Email</em>: ibrahimwafiyudeen@gmail.com</h3>
-            </div>
-            <div class="phone">
-              <h3><em>Phone</em>: +233 596705736</h3>
-            </div>
-            <br />
-            <div class="social-media">
-              <div class="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/ibrahim-wafiyudeen-0b1b3b1b4/"
-                  target="_blank"
-                >
-                  <img src="/images/skill-icons--linkedin.png" alt="" />
-                </a>
-                <a href="https://www.github.com/wafiyu227" target="_blank">
-                  <img src="/images/akar-icons--github-fill.png" alt="" />
-                </a>
-                <a
-                  href="https://www.twitter.com/wafiyudeen5448"
-                  target="_blank"
-                >
-                  <img src="/images/prime--twitter.png" alt="" />
-                </a>
-              </div>
-              <div class="copy">
-                <p>
-                  &copy; <span id="date"></span> Ibrahim Wafiyudeen All rights
-                  reserved
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <!-- Back to Top Button -->
-    <div class="back-to-top" id="backToTop">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="30px"
-        height="30px"
-        viewBox="0 0 8 8"
-      >
-        <path
-          fill="#fff"
-          d="M4 0C1.79 0 0 1.79 0 4s1.79 4 4 4s4-1.79 4-4s-1.79-4-4-4m0 1l3 3H5v3H3V4H1z"
-        />
-      </svg>
     </div>
-    <script src="script.js"></script>
-  </body>
+  </footer>
+  <!-- Back to Top Button -->
+  <div class="back-to-top" id="backToTop">
+    <svg xmlns="http://www.w3.org/2000/svg" width="30px" height="30px" viewBox="0 0 8 8">
+      <path fill="#fff" d="M4 0C1.79 0 0 1.79 0 4s1.79 4 4 4s4-1.79 4-4s-1.79-4-4-4m0 1l3 3H5v3H3V4H1z" />
+    </svg>
+  </div>
+  <script src="script.js"></script>
+</body>
+
 </html>
