@@ -19,7 +19,7 @@ The site highlights selected projects, technical skills, and provides an easy wa
 - Deployed on Netlify / Vercel
 
 ## Live Demo
-🔗 https://your-portfolio-link.com
+🔗 (https://ibrahimwafiyudeen-portfolio.netlify.app/)
 
 ## Screenshots
 (Add screenshots of homepage and projects section)
@@ -33,7 +33,7 @@ The site highlights selected projects, technical skills, and provides an easy wa
    `npm run dev`
 
 ## Deployment
-The project is deployed using Netlify/Vercel for fast and reliable hosting.
+The project is deployed using Netlify for fast and reliable hosting.
 
 ## Author
 **Ibrahim Wafiyudeen**  
