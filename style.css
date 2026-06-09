@@ -604,6 +604,30 @@ hr {
   transform: scale(1.05);
 }
 
+/* GitHub repo button */
+.github-btn {
+  background: transparent;
+  color: var(--text-white);
+  padding: 8px 16px;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 0.85rem;
+  text-decoration: none;
+  transition: var(--transition);
+  border: 1px solid var(--glass-border);
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.github-btn:hover {
+  background: var(--text-white);
+  color: var(--bg-dark);
+  border-color: var(--text-white);
+  transform: translateY(-2px);
+}
+
 /* Project role label */
 .project-role {
   color: var(--primary) !important;
