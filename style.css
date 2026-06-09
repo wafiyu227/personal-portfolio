@@ -1006,6 +1006,48 @@ hr {
     text-align: center;
     align-self: stretch;
   }
+
+  .project-actions {
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    gap: 10px;
+  }
+
+  .live-badge, .github-btn {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+  .availability-pitch {
+    margin: 60px auto 0;
+  }
+
+  .availability-inner {
+    padding: 40px 24px;
+    border-radius: 24px;
+  }
+
+  .availability-inner::before {
+    border-radius: 24px;
+  }
+
+  .availability-pitch h2 {
+    font-size: 1.6rem;
+  }
+
+  .availability-pitch p {
+    font-size: 1rem;
+    margin-bottom: 25px;
+  }
+
+  .availability-cta {
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+  }
 }
 
 @media (max-width: 480px) {
