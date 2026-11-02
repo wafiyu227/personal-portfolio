@@ -218,11 +218,19 @@ nav {
   max-width: 1000px;
 }
 
+.system-icons {
+  max-width: 1100px;
+  padding: 28px 32px 24px;
+  border-radius: 28px;
+}
+
 .logo {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 15px;
+  justify-content: center;
+  gap: 18px;
+  min-height: 180px;
   transition: var(--transition);
 }
 
@@ -231,9 +239,29 @@ nav {
 }
 
 .logo img {
-  width: 60px;
-  height: 60px;
+  width: 74px;
+  height: 74px;
+  object-fit: contain;
   filter: drop-shadow(0 0 10px rgba(56, 189, 248, 0.3));
+}
+
+#python-logo img,
+#linux-logo img,
+#aws-logo img,
+#cli-logo img {
+  width: 92px;
+  height: 92px;
+  filter: drop-shadow(0 0 18px rgba(125, 211, 252, 0.28));
+}
+
+#aws-logo img {
+  width: 86px;
+  height: 86px;
+}
+
+#cli-logo img {
+  width: 90px;
+  height: 90px;
 }
 
 .logo p {
@@ -241,7 +269,9 @@ nav {
   font-weight: 600;
   font-size: 0.9rem;
   letter-spacing: 1px;
+  text-align: center;
 }
+
 
 .roadmap-note {
   max-width: 1000px;
