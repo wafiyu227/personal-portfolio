@@ -1,40 +1,23 @@
-# Personal Portfolio Website
+# Ibrahim Wafiyudeen — Portfolio
 
-This is my personal developer portfolio website built to showcase my skills, projects, and professional experience as a frontend-focused fullstack developer.
+A responsive personal portfolio presenting my software engineering experience, technical skills, education, and selected projects.
 
-The site highlights selected projects, technical skills, and provides an easy way for potential clients or employers to get in touch.
+## Built with
 
-## Features
-- Clean, modern UI design
-- Responsive layout for all devices
-- Projects showcase with live links
-- About and contact sections
-- Fast load times and SEO-friendly structure
-
-## Tech Stack
-- React.js
-- Tailwind CSS
+- HTML
+- CSS
 - JavaScript
-- Git & GitHub
-- Deployed on Netlify / Vercel
 
-## Live Demo
-🔗 (https://ibrahimwafiyudeen-portfolio.netlify.app/)
+## Live site
 
-## Screenshots
-(Add screenshots of homepage and projects section)
+[ibrahimwafiyudeen-portfolio.netlify.app](https://ibrahimwafiyudeen-portfolio.netlify.app/)
 
-## Setup Instructions
-1. Clone the repository  
-   `git clone https://github.com/yourusername/portfolio.git`
-2. Install dependencies  
-   `npm install`
-3. Run the project locally  
-   `npm run dev`
+## Run locally
 
-## Deployment
-The project is deployed using Netlify for fast and reliable hosting.
+Open `index.html` in a browser, or serve this directory with any static web server.
 
-## Author
-**Ibrahim Wafiyudeen**  
-Frontend / Fullstack Developer
+## Contact
+
+**Ibrahim Wafiyudeen**<br>
+ibrahimwafiyudeen@gmail.com<br>
+[GitHub](https://github.com/wafiyu227) · [LinkedIn](https://www.linkedin.com/in/ibrahim-wafiyudeen)
